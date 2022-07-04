@@ -1,0 +1,22 @@
+{
+  "name": "art-galery",
+  "version": "1.0.0",
+  "description": "description",
+  "main": "pathToMain",
+  "scripts": {
+    "start": "nodemon --ignore models/data.json"
+  },
+  "author": "Angel Stoyanov",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-validation": "^4.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.4.1",
+    "nodemon": "^2.0.18",
+    "uniqid": "^5.4.0"
+  }
+}
