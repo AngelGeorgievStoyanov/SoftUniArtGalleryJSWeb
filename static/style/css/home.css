@@ -67,7 +67,7 @@
 }
 
 .content-publication {
-    display: inline;
+    display: flex;
     width: 750px;
     border-style: double;
     border-color: #c47d04;
@@ -77,7 +77,10 @@
     min-height: 135px;
     height: auto;
     margin-left: 14em;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .content-publication>h1 {
     font-size: 21px;
